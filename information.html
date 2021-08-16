@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  
+  <title>大阪大学鳥人間サークル　albatross</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="animate.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+  <h1 class="main-title animation1" >大阪大学鳥人間サークル</h1>
+  <h1 class="sub-title animation1">albatross</h1>
+  
+</header>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <div class="box"><a href="index.html">top page</a></div>
+      <div class="box"><a href="information.html">information</a></div>
+      <div class="box"><a href="introduction.html">introduction</a></div>
+      <div class="box"><a href="memories.html">memories</a></div>
+      
+    </div>
+    <div class="information">
+      <div class="one-message">
+        <h2>課外サークルオリエンテーション</h2>
+        <p>７月２２、２３日に開催されるサークルオリエンテーションに私たちalbatrossも参加します。是非来てください。詳しくは下のリンクを参照してください。
+        </p>
+        <a href="https://app.tyuujitu-system.net/visitor" target="_blank">サークルオリエンテーショントップページ</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.textillate.js"></script>
+<script src="jquery.lettering.js"></script>
+<script>$(function(){
+	$(".animation1").textillate({
+		loop:true,
+		in: {
+			effect: "fadeInDown",
+			DelayNode:50,
+			shuffle: true
+		},
+
+		out:{
+			effect:"flash",
+			delay :50
+    }
+   
+	});
+})
+
+$(function(){
+  $(".animation2").textillate();
+});</script>
+</body>
+<footer>
+  <div class="container">
+    <p class="approad">更新日：8/11</p>
+    <p class="right"><span>&copy;</span>albatross</p>
+  </div>
+  
+</footer>
+</html>

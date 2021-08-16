@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="veiwport" content="width=device-width, initial-scale=1">
+  <title>大阪大学鳥人間サークル　albatross</title>
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<header>
+  <h1 class="main-title animation1" >大阪大学鳥人間サークル</h1>
+  <h1 class="sub-title animation1" >albatross</h1>
+  
+</header>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <div class="box"><a href="index.html">top page</a></div>
+      <div class="box"><a href="information.html">information</a></div>
+      <div class="box"><a href="introduction.html">introduction</a></div>
+      <div class="box"><a href="memories.html">memories</a></div>
+     
+    </div>
+  </div>
+  <div class="introduction">
+    <div class="container">
+  <h1 class="animation2">班紹介</h1>
+  <div class="yokuhann">
+    <h2>翼班</h2>
+    <div class="introflex">
+    <p>翼班とは飛行機の主翼を制作する班で、大きな主翼を作るため、長い時間がかかり、また高い精度が求められます。主に主翼の断面となる板（リブ）を約200枚作ったり、長い主翼を１１本に分けて作ったり、主翼が応力を生み出せるように翼にフィルムを貼り付けたりというような作業をしています。大きなものを１から作りたい、細かい作業が好き、飛行機が飛ぶ仕組みを理解したいなどの人におすすめです。</p>
+    <img src="images/yokuhann.jpg">
+  </div>
+  
+  </div>
+  <div class="dennsouhann">
+    <h2>電装班</h2>
+    
+    <div class="introflex">
+      <img src="images/dennsou1.jpg">
+    <p>電装班とは計器によるデータ収集や操舵時のサーボ制御を行います。プログラミングやマイコン制御を多用するので、他の班より勉強することが多いです。しかし先輩方が分かりやすく教えてくださるので、それらの知識を完璧に身につけることができます。電装班は他の班とは違い、家でも作業できるので、キャンパスが吹田じゃない人にもおすすめです。</p>
+    
+  </div>
+  
+  </div>
+  <div class="soudahann">
+    <h2>操舵・パイロット</h2>
+    <div class="introflex">
+      <p>操舵班はパイロットが兼任することが多く、主に飛行機を操縦するために必要な機構を作ります。パイロットは飛行機を1秒でも長く飛ばすために日々鍛えています。トレーニング方法は、ロードバイク、ランニング、筋トレ（吹田キャンパスのジムも使用可能）です。</p>
+      <img src="images/souda1.jpg">
+    </div>
+  </div>
+  <div class="kudouhann">
+    <h2>駆動班</h2>
+    <div class="introflex">
+      <img src="images/kudou1.jpg">
+      <p>駆動斑は精密な機械を用いて色々な細かい部品を作ったり、快適なペダリングを手掛けます。部品は一つ一つとても精密で、0.01mmほどの精度が要求されます。（参考程度に、サランラップの厚さは0.015mmです。）</p>
+    </div>
+    <div class="puroperahann">
+      <h2>プロペラ班</h2>
+      <div class="introflex">
+        <p>プロペラ班は文字通りプロペラを作る班で、１から手作りします。作り方は、まず専用のPCソフトを使って設計します。次に様々な素材・加工を通して
+          軽く美しいプロペラを目指します。プロペラのデザインも自由で、特にプロペラが回っているときの光景はとても綺麗です。また、プロペラを家に持って帰って飾れるのはプロペラ班の特権です。</p>
+          <img src="images/puroperahann1.jpg">
+      </div>
+    </div>
+    <div class="framehann">
+      <h2>フレーム班</h2>
+      <div class="introflex">
+        <img src="images/framehann1.jpg">
+        <p>フレーム班は人力飛行機のコクピットなど骨組み部分の製作を担当します。作業内容はカーボンパイプの加工や接着がメインです。ハンドベルトサンダーと呼ばれる工具やエポキシ樹脂を使って加工します。普通の工作では使用しないような工具を使って工作をしたい人や飛行機の設計に関わってみたい人などにおすすめです。
+        </p>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.textillate.js"></script>
+<script src="jquery.lettering.js"></script>
+<script>$(function(){
+	$(".animation1").textillate({
+		loop:true,
+		in: {
+			effect: "fadeInDown",
+			DelayNode:50,
+			shuffle: true
+		},
+
+		out:{
+			effect:"flash",
+			delay :50
+		}
+	});
+})
+
+$(function(){
+  $(".animation2").textillate();
+});
+</script>
+</body>
+<footer>
+  <div class="container">
+    <p class="approad">更新日：8/11</p>
+    <p class="right"><span>&copy;</span>albatross</p>
+  </div>
+  
+</footer>
+</html>
