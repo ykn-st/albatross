@@ -266,13 +266,19 @@ header h1{
 }
 
 .memorial img{
-  width: 90%;
-  
+ width:100%;
+
 }
 
 .memories{
+  
+  width:90%;
   margin-top:50px;
+  margin-right:auto;
+  margin-left:auto;
 }
+
+
 
 /* .prev,.next{
   display:inline;
