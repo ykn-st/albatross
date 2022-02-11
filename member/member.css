@@ -52,6 +52,14 @@ border-radius:9%;
   padding:10px;
 }
 
+.question h3:nth-child(2n){
+  color:rgb(152, 74, 5);
+}
+
+.question h3:nth-child(2n+1){
+  color:rgb(102, 121, 7);
+}
+
 .back{
   text-align:center;
 }
@@ -59,3 +67,5 @@ border-radius:9%;
 .box{
   margin:0 auto;
 }
+
+

@@ -189,7 +189,7 @@ header{
   grid-column:3/5;
 }
 .box16{
-  background-image: url("images/takaminn6-11.jpg");
+  background-image: url("images/takamin6-11.jpg");
   grid-row:5;
   grid-column:1;
 }
@@ -294,6 +294,10 @@ header{
 @media(max-width:1200px){
   .info{
     width:90%;
+  }
+
+  .info img{
+    width:50%;
   }
 }
 
