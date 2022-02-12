@@ -44,6 +44,9 @@ header{
   border-radius:15px;
 }
 
+  
+
+
 .box{
   background-color: rgb(10, 160, 230);
   
@@ -106,6 +109,15 @@ body{
   display:flex;
 }
 
+.intropilot{
+  padding:50px 0;
+}
+
+.intropilot-information{
+  padding-top:20px;
+display:flex;
+}
+
 h1{
   color:rgb(24, 24, 61);
 }
@@ -147,6 +159,17 @@ p{
   
 }
 
+.intropilot p{
+  width:40%;
+padding-left:10%;
+}
+
+.intropilot img{
+  width:35%;
+height:35%;
+padding-left:5%;
+}
+
 
 
 .albatross-information{
@@ -178,6 +201,10 @@ p{
 
 .sns{
   padding-top:20px;
+}
+
+.pilott{
+  display:block;
 }
 
 
