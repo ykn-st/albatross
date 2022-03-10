@@ -497,3 +497,23 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+
+.block{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .3s, transform .3s;
+}
+
+.appear{
+  opacity:1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
