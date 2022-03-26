@@ -1,30 +1,6 @@
 var val = 1;
 var vall = 1;
 
-document.getElementById("image4").src = "images/zennkumi1.jpg";
-
-
-setInterval(function (){
-  switch(val){
-    case 1:
-      document.getElementById("image4").src = "images/zennkumi2.jpg";
-      break;
-    case 2:
-      document.getElementById("image4").src = "images/zennkumi3.jpg";
-      break;
-    case 3:
-      document.getElementById("image4").src = "images/zennkumi4.jpg";
-      break;
-    case 4:
-      document.getElementById("image4").src = "images/zennkumi1.jpg";
-      break;
-    default:
-      document.getElementById("image4").src = "images/zennkumi1.jpg";
-  }
-  vall = val + 1;
-  val = vall%4;
-},5000);
-
 
 document.getElementById("image").src = "images/zennkumi1.jpg";
 
