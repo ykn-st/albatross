@@ -1,7 +1,7 @@
 *{
   padding:0;
   margin:0;
-  
+
 }
 
 header{
@@ -13,7 +13,7 @@ header{
   text-align:center;
   opacity:0.9;
   color:rgb(221, 243, 253);
-  
+
 }
 
 .main-title{
@@ -32,7 +32,7 @@ header{
   color:black;
   display:inline-block;
   border-radius:15px;
-  
+
 }
 
 .sns a{
@@ -44,12 +44,12 @@ header{
   border-radius:15px;
 }
 
-  
+
 
 
 .box{
   background-color: rgb(10, 160, 230);
-  
+
 }
 
 .boxs{
@@ -60,7 +60,7 @@ header{
 }
 
 .menu{
-  
+
   margin:0 auto;
   padding-top:20px;
   display:flex;
@@ -78,7 +78,7 @@ header{
 .container{
   width:90%;
   margin:0 auto;
-  
+
 }
 
 body{
@@ -125,7 +125,7 @@ h1{
 h2{
   color:rgb(56, 131, 118);
   font-weight:normal;
- 
+
 }
 
 
@@ -156,7 +156,7 @@ p{
 .top-information p{
   width:40%;
   padding-left:10%;
-  
+
 }
 
 .intropilot p{
@@ -175,13 +175,13 @@ padding-left:5%;
 .albatross-information{
   padding-top:20px;
   display:flex;
-  
+
 }
 
 .albatross-information p{
   width:40%;
   padding-left:10%;
- 
+
 
 
 
@@ -190,7 +190,7 @@ padding-left:5%;
 .memberbosyuu-information p{
   width:40%;
   padding-left:10%;
-  
+
 }
 
 .member-bosyuu {
@@ -201,6 +201,11 @@ padding-left:5%;
 
 .sns{
   padding-top:20px;
+}
+
+.snsbox{
+  margin:0 auto;
+  width:80%;
 }
 
 .pilott{
@@ -299,7 +304,7 @@ header h1{
 }
 
 .memories{
-  
+
   width:90%;
   margin-top:50px;
   margin-right:auto;
