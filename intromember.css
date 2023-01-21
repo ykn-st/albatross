@@ -1,25 +1,22 @@
 *{
   padding:0;
   margin:0;
-  
+
 }
 
 .member{
   padding-top:20px;
 }
 
-.fifteen{
-  display:flex;
-  flex-wrap: wrap;
-
-
-}
 
 .sixteen{
   display:flex;
   flex-wrap: wrap;
+}
 
-
+.seventeen{
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .person{
@@ -33,17 +30,17 @@
   border-radius :50%;
 }
 
-.fifteeenn h2{
-  text-align:center;
-  font-size:30px;
-}
- 
+
+
 .sixteenn h2{
   text-align:center;
   font-size:30px;
 }
 
-
+.seventeenn h2{
+  text-align:center;
+  font-size:30px;
+}
 
 
 

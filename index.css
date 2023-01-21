@@ -1,7 +1,7 @@
 *{
   padding:0;
   margin:0;
-  
+
 }
 
 header{
@@ -13,7 +13,7 @@ header{
   text-align:center;
   opacity:0.9;
   color:rgb(221, 243, 253);
-  
+
 }
 
 .main-title{
@@ -32,7 +32,7 @@ header{
   color:black;
   display:inline-block;
   border-radius:15px;
-  
+
 }
 
 .sns a{
@@ -44,12 +44,12 @@ header{
   border-radius:15px;
 }
 
-  
+
 
 
 .box{
   background-color: rgb(10, 160, 230);
-  
+
 }
 
 .boxs{
@@ -61,7 +61,6 @@ header{
 }
 
 .menu{
-  
   margin:0 auto;
   padding-top:20px;
   display:flex;
@@ -79,7 +78,7 @@ header{
 .container{
   width:90%;
   margin:0 auto;
-  
+
 }
 
 body{
@@ -92,12 +91,17 @@ body{
 }
 
 .albatross{
-  padding-top:50px;
+  padding-top:100px;
 }
 
 .top-information{
+  text-align:left;
   padding-top:20px;
   display:flex;
+}
+
+.top-information-title{
+  color:red;
 }
 
 .albatross-information{
@@ -126,13 +130,14 @@ h1{
 h2{
   color:rgb(56, 131, 118);
   font-weight:normal;
- 
+
 }
 
 
 
 p{
-  color: rgb(63, 77, 5);
+  /* color: rgb(63, 77, 5); */
+  color: rgb(0, 0, 0);
   /* font-size:30px; */
 }
 
@@ -157,7 +162,7 @@ p{
 .top-information p{
   width:40%;
   padding-left:10%;
-  
+
 }
 
 .intropilot p{
@@ -176,13 +181,13 @@ padding-left:5%;
 .albatross-information{
   padding-top:20px;
   display:flex;
-  
+
 }
 
 .albatross-information p{
   width:40%;
   padding-left:10%;
- 
+
 
 
 
@@ -191,17 +196,17 @@ padding-left:5%;
 .memberbosyuu-information p{
   width:40%;
   padding-left:10%;
-  
+
 }
 
 .member-bosyuu {
   color:rgb(24, 24, 61);
   font-size:13px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .sns{
-  padding-top:20px;
+  padding-top:100px;
 }
 
 .snsbox{
@@ -241,7 +246,7 @@ header h1{
 }
 
 .introduction h2{
-  padding-top:30px;
+  padding-top:50px;
 }
 
 .introflex {
@@ -250,14 +255,16 @@ header h1{
   padding-top:10px;
 }
 .introflex p{
+  text-align:left;
   width:50%;
-  font-size:35px;
+  font-size:23px;
+  padding-top:20px;
 }
 
 
 
 .top p{
-  font-size:30px;
+  font-size:25px;
 }
 
 @media(max-width:1100px){
@@ -300,12 +307,12 @@ header h1{
 }
 
 .memorial img{
- width:100%;
+  width:100%;
 
 }
 
 .memories{
-  
+
   width:90%;
   margin-top:50px;
   margin-right:auto;
@@ -322,46 +329,6 @@ header h1{
   background-color:rgb(185, 221, 250);
   margin:auto 0;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
