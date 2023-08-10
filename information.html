@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta name="google-site-verification" content="QwLiEDJNUbAXV3jK9a040WkbYvXTz_OHq1-3Oq4nmm8" />
   <meta charset="utf-8">
@@ -10,13 +11,20 @@
   <link rel="stylesheet" href="animate.css">
   <link rel="shortcut icon" href="images/favicon.ico">
 </head>
-<header>
-  <h1 class="main-title animation1" >大阪大学鳥人間サークル</h1>
-  <h1 class="sub-title animation1">albatross</h1>
-
-</header>
 
 <body>
+
+  <!-- 共通ヘッダーをインクルード -->
+  <div id="header">
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    </script>
+  </div>
+
   <div class="container">
     <div class="menu">
       <div class="box"><a href="index.html">top page</a></div>
@@ -39,35 +47,22 @@
   </div>
 
   </div>
+
   <script src="jquery-3.6.0.min.js"></script>
   <script src="jquery.textillate.js"></script>
   <script src="jquery.lettering.js"></script>
-  <script>$(function(){
-  $(".animation1").textillate({
-    loop:true,
-    in: {
-      effect: "fadeInDown",
-      DelayNode:50,
-      shuffle: true
-    },
+  <script src="main.js"></script>
 
-    out:{
-      effect:"flash",
-      delay :50
-    }
-
-  });
-  })
-
-  $(function(){
-  $(".animation2").textillate();
-  });</script>
-</body>
-<footer>
-  <div class="container">
-    <p class="approad">更新日：1/21</p>
-    <p class="right"><span>&copy;</span>albatross</p>
+  <!-- 共通フッターをインクルード -->
+  <div id="footer">
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
   </div>
+</body>
 
-</footer>
 </html>
