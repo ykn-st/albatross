@@ -13,13 +13,20 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <!-- <link rel="styles　heet" href="flickity-docs.mini.js"> -->
 </head>
-<header>
-  <h1 class="main-title animation1">大阪大学鳥人間サークル</h1>
-  <h1 class="sub-title animation1">albatross</h1>
 
-</header>
 
 <body>
+
+  <!-- 共通ヘッダーをインクルード -->
+  <div id="header">
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    </script>
+  </div>
 
   <div class="container">
     <div class="menu">
@@ -93,7 +100,7 @@
       <!--
       <div class="eightteenn">
         <h2>18期</h2>
-        <div class="seventeen">
+        <div class="eightteen">
           <div class="person">
             <a href="member/個人ページ名.html"><img src="memberimg/写真名.jpg"></a>
             <p class="hanmei">○○班</p>
@@ -131,37 +138,23 @@
 
     </div>
   </div>
-  </div>
-</body>
-<footer>
-  <div class="container">
-    <p class="approad">更新日：1/28</p>
-    <p class="right"><span>&copy;</span>albatross</p>
-  </div>
+
   <script src="jquery-3.6.0.min.js"></script>
   <script src="jquery.textillate.js"></script>
   <script src="jquery.lettering.js"></script>
-  <script>$(function () {
-      $(".animation1").textillate({
-        loop: true,
-        in: {
-          effect: "fadeInDown",
-          DelayNode: 50,
-          shuffle: true
-        },
+  <script src="main.js"></script>
 
-        out: {
-          effect: "flash",
-          delay: 50
-        }
+  <!-- 共通フッターをインクルード -->
+  <div id="footer">
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+  </div>
 
-      });
-    })
-
-    $(function () {
-      $(".animation2").textillate();
-    });</script>
-
-</footer>
+</body>
 
 </html>
