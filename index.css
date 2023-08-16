@@ -5,7 +5,8 @@
 }
 
 header{
-  background-image: url("images/torininngenn27.jpg"); /*ヘッダーの写真*/
+  /*background-image: url("images/torininngenn27.jpg"); */
+  background-image: url("images/memories/8-1.jpg"); /*ヘッダーの写真*/
   background-size:cover;
   height:600px;
   width:100%;
