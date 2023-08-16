@@ -58,26 +58,4 @@
 .back {
   text-align: center;
 }
-.social-media {
-  padding-top: 50px;
-  margin: 0 auto;
-  text-align: center;
-}
 
-.image-container {
-  display: inline-block;
-  margin: 0 50px;
-  vertical-align: top;
-}
-
-.sns-logo {
-  width: 3cm;
-  height: 3cm;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.caption {
-  margin-top: 5px;
-  text-align: center;
-}
