@@ -54,3 +54,13 @@ a{
     margin-left: 5px;
     /* add some space between the date and the text */
 }
+
+.description {
+    font-size: 14px;
+    /* set the font size for the date */
+    font-weight: normal;
+    /* remove bold font weight */
+    margin-left: 5px;
+    /* add some space between the date and the text */
+    color: blue;
+}
