@@ -60,22 +60,3 @@ setInterval(function (){
   val = vall%5;
 },5000);
 
-$(function(){
-	$(".animation1").textillate({
-		loop:true,
-		in: {
-			effect: "fadeInDown",
-			DelayNode:50,
-			shuffle: true
-		},
-
-		out:{
-			effect:"flash",
-			delay :50
-		}
-	});
-})
-
-$(function(){
-  $(".animation2").textillate();
-});
