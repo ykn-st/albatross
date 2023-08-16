@@ -5,7 +5,7 @@
 }
 
 header{
-  background-image: url("images/torininngenn27.jpg");
+  background-image: url("images/torininngenn27.jpg"); /*ヘッダーの写真*/
   background-size:cover;
   height:600px;
   width:100%;
@@ -25,29 +25,10 @@ header{
   font-size: 70px;
 }
 
-.menu a{
-  padding:20px 50px;
-  background-color: white;
-  opacity:0.6;
-  color:black;
-  display:inline-block;
-  border-radius:15px;
-
-}
-
-.sns a{
-  padding:20px 40px 20px 40px;
-  background-color: white;
-  opacity:0.6;
-  color:black;
-  display:inline-block;
-  border-radius:15px;
-}
-
-
 
 
 .box{
+  margin:0 auto;
   background-color: rgb(10, 160, 230);
 
 }
@@ -58,6 +39,7 @@ header{
   display:flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .menu{
@@ -69,6 +51,15 @@ header{
 
 .menu a:hover{
   opacity:0.4;
+}
+
+.menu a{
+  padding:20px 50px;
+  background-color: white;
+  opacity:0.6;
+  color:black;
+  display:inline-block;
+  border-radius:15px;
 }
 
 .boxs a:hover{
@@ -87,10 +78,9 @@ body{
 
 .top{
   text-align:center;
-  padding-top:50px;
 }
 
-.albatross{
+.top-torininngenn{
   padding-top:100px;
 }
 
@@ -104,24 +94,19 @@ body{
   color:red;
 }
 
-.albatross-information{
-  padding-top:20px;
-  display:flex;
+.top-torininngenn img{
+  width:35%;
+  height:35%;
+  padding-left:5%;
 }
 
-.memberbosyuu-information{
-  padding-top:20px;
-  display:flex;
+
+.top-information p{
+  width:40%;
+  padding-left:10%;
+
 }
 
-.intropilot{
-  padding:50px 0;
-}
-
-.intropilot-information{
-  padding-top:20px;
-display:flex;
-}
 
 h1{
   color:rgb(24, 24, 61);
@@ -141,77 +126,30 @@ p{
   /* font-size:30px; */
 }
 
-.top-torininngenn img{
-  width:35%;
-  height:35%;
-  padding-left:5%;
+
+/*snsのリンク*/
+.sns {
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.albatross-information img{
-  width:35%;
-  height:35%;
-  padding-left:5%;
+.image-container {
+  display: inline-block;
+  margin: 0 50px;
+  vertical-align: top;
 }
 
-.memberbosyuu-information img{
-  width:35%;
-  height:35%;
-  padding-left:5%;
+.sns-logo {
+  width: 3cm;
+  height: 3cm;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.top-information p{
-  width:40%;
-  padding-left:10%;
-
-}
-
-.intropilot p{
-  width:40%;
-padding-left:10%;
-}
-
-.intropilot img{
-  width:35%;
-height:35%;
-padding-left:5%;
-}
-
-
-
-.albatross-information{
-  padding-top:20px;
-  display:flex;
-
-}
-
-.albatross-information p{
-  width:40%;
-  padding-left:10%;
-
-
-
-
-}
-
-.memberbosyuu-information p{
-  width:40%;
-  padding-left:10%;
-
-}
-
-.member-bosyuu {
-  color:rgb(24, 24, 61);
-  font-size:13px;
-  padding-top: 100px;
-}
-
-.sns{
-  padding-top:100px;
-}
-
-.snsbox{
-  margin:0 auto;
-  width:80%;
+.caption {
+  margin-top: 5px;
+  text-align: center;
 }
 
 .pilott{
