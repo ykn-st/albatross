@@ -23,7 +23,7 @@
 
 .profile-image {
   width: 45%;
-  border-radius: 10px;
+  border-radius: 9%;
 }
 
 @media(max-width:1100px) {
