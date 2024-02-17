@@ -18,6 +18,11 @@
   flex-wrap: wrap;
 }
 
+.nineteen{
+  display:flex;
+  flex-wrap: wrap;
+}
+
 .character{
   display:flex;
   flex-wrap: wrap;
