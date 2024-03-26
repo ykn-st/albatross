@@ -26,6 +26,13 @@ header{
   font-size: 70px;
 }
 
+/* ヘッダーの臨時メッセージ */
+.news{
+  font-size: 80px;
+  padding-top: 100px;
+  color:rgb(255, 90, 85);
+}
+
 
 
 .box{
@@ -123,12 +130,6 @@ h2{
 
 }
 
-/* ヘッダーの臨時メッセージ */
-news{
-  margin-top: 100px;
-  color:rgb(255, 90, 85);
-  font-size: 24px;
-}
 
 
 
