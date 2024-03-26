@@ -55,7 +55,7 @@ setInterval(function (){
       document.getElementById("image6").src = "images/memories/6-4.jpg";
       document.getElementById("image9").src = "images/memories/9-4.jpg";
       document.getElementById("image10").src = "images/memories/10-1.jpg";
-      document.getElementById("image11").src = "images/memories/11-2.jpg";
+      document.getElementById("image11").src = "images/memories/11-1.jpg";
       break;
     case 4:
       document.getElementById("image1").src = "images/memories/1-1.jpg";
