@@ -43,7 +43,7 @@ setInterval(function (){
       document.getElementById("image5").src = "images/memories/5-3.jpg";
       document.getElementById("image6").src = "images/memories/6-3.jpg";
       document.getElementById("image9").src = "images/memories/9-3.jpg";
-      document.getElementById("image10").src = "images/memories/10-1.jpg";
+      document.getElementById("image10").src = "images/memories/10-3.jpg";
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       break;
     case 3:
@@ -54,7 +54,7 @@ setInterval(function (){
       document.getElementById("image5").src = "images/memories/5-4.jpg";
       document.getElementById("image6").src = "images/memories/6-4.jpg";
       document.getElementById("image9").src = "images/memories/9-4.jpg";
-      document.getElementById("image10").src = "images/memories/10-2.jpg";
+      document.getElementById("image10").src = "images/memories/10-1.jpg";
       document.getElementById("image11").src = "images/memories/11-2.jpg";
       break;
     case 4:
