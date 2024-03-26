@@ -18,11 +18,6 @@
   flex-wrap: wrap;
 }
 
-.twentyonee{
-  display:flex;
-  flex-wrap: wrap;
-}
-
 .character{
   display:flex;
   flex-wrap: wrap;
@@ -51,7 +46,7 @@
   font-size:30px;
 }
 
-.twentyonee h2{
+.nineteenn h2{
   padding-top:20px;
   text-align:center;
   font-size:30px;
