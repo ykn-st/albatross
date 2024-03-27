@@ -30,7 +30,7 @@ header{
 .news{
   font-size: 80px;
   padding-top: 100px;
-  color:rgb(255, 70, 60);
+  color="red";
 }
 
 
