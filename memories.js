@@ -12,6 +12,7 @@ document.getElementById("image10").src = "images/memories/10-1.jpg";
 document.getElementById("image11").src = "images/memories/11-1.jpg";
 document.getElementById("image12").src = "images/memories/12-1.jpg";
 document.getElementById("image13").src = "images/memories/13-1.jpg";
+document.getElementById("image14").src = "images/memories/14-1.jpg";
 
 setInterval(function (){
   switch(val){
@@ -27,6 +28,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       document.getElementById("image12").src = "images/memories/12-1.jpg";
       document.getElementById("image13").src = "images/memories/13-1.jpg";
+      document.getElementById("image14").src = "images/memories/14-1.jpg";
       break;
     case 1:
       document.getElementById("image1").src = "images/memories/1-2.jpg";
@@ -40,6 +42,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-2.jpg";
       document.getElementById("image12").src = "images/memories/12-2.jpg";
       document.getElementById("image13").src = "images/memories/13-2.jpg";
+      document.getElementById("image14").src = "images/memories/13-2.jpg";
       break;
     case 2:
       document.getElementById("image1").src = "images/memories/1-3.jpg";
@@ -53,6 +56,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       document.getElementById("image12").src = "images/memories/12-3.jpg";
       document.getElementById("image13").src = "images/memories/13-3.jpg";
+      document.getElementById("image14").src = "images/memories/14-1.jpg";
       break;
     case 3:
       document.getElementById("image1").src = "images/memories/1-4.jpg";
@@ -66,6 +70,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       document.getElementById("image12").src = "images/memories/12-4.jpg";
       document.getElementById("image13").src = "images/memories/13-4.jpg";
+      document.getElementById("image14").src = "images/memories/14-1.jpg";
       break;
     case 4:
       document.getElementById("image1").src = "images/memories/1-1.jpg";
@@ -79,6 +84,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       document.getElementById("image12").src = "images/memories/12-1.jpg";
       document.getElementById("image13").src = "images/memories/13-1.jpg";
+      document.getElementById("image14").src = "images/memories/14-1.jpg";
       break;
     default:
       document.getElementById("image1").src = "images/memories/1-1.jpg";
@@ -92,6 +98,7 @@ setInterval(function (){
       document.getElementById("image11").src = "images/memories/11-1.jpg";
       document.getElementById("image12").src = "images/memories/12-1.jpg";
       document.getElementById("image13").src = "images/memories/13-1.jpg";
+      document.getElementById("image14").src = "images/memories/14-1.jpg";
   }
   vall = val + 1;
   val = vall%5;
