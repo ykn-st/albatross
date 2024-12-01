@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta name="google-site-verification" content="QwLiEDJNUbAXV3jK9a040WkbYvXTz_OHq1-3Oq4nmm8" />
+  <meta name="description" content="こんにちは、大阪大学鳥人間サークルです。ここでは最新の情報やこれまでの記録などが閲覧できます。ぜひ見てみてください。">
+  <meta charset="utf-8">
+  <meta name="veiwport" content="width=device-width, initial-scale=1">
+  <title>大阪大学鳥人間サークル　albatross</title>
+  <link rel="stylesheet" href="../animate.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="member.css">
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <!-- <link rel="styles　heet" href="flickity-docs.mini.js"> -->
+</head>
+
+<body>
+
+  <!-- 共通ヘッダーをインクルード -->
+  <div id="header">
+    <script>
+      fetch('../header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    </script>
+  </div>
+
+  <div class="container">
+    <div class="menu">
+      <div class="top-intro">
+        <div class="profile">
+          <p>名前　：　古橋</p>
+          <p>学部　：　工学部</p>
+          <p>学科　：　応用自然科学科</p>
+          <p>学年　：　1年</p>
+          <p>出身　：　兵庫県</p>
+        </div>
+        <img class="profile-image" src="../memberimg/19_huruhashi.jpg">
+
+      </div>
+    </div>
+    <div class="question">
+      <h2>Q&A</h2>
+      <h3>　Q : アルバに入った理由は？</h3>
+      <h3>　A : ものづくり系のなかで大きいものを作ってたから</h3>
+      <h3>　Q : アルバでの思い出は？</h3>
+      <h3>　A : ミニトリコン</h3>
+      <h3>　Q : 趣味・特技は？</h3>
+      <h3>　A : 漫画を読む</h3>
+      <h3>　Q : 尊敬する人は？笑</h3>
+      <h3>　A : 先輩方</h3>
+      <h3>　Q : 私と言えば○○！</h3>
+      <h3>　A : ない</h3>
+      <h3>　Q : 私と言えば○○の理由</h3>
+      <h3>　A : 全部の要素が少なくとも1人と被っているため、ガチでない</h3>
+      <h3>　Q : これからアルバに入ってくれるかもしれない人へのメッセージをどうぞ！</h3>
+      <h3>　A : 飛行機でかいし飛ぶしすごい！</h3>
+      
+
+    </div>
+    <div class="menu">
+      <div class="box">
+        <a href="../intromember.html">メンバーページへ</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 共通フッターをインクルード -->
+  <div id="footer">
+    <script>
+      fetch('../footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+  </div>
+
+</body>
+
+</html>
